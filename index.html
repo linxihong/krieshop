@@ -1,0 +1,1563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>商城首页</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!--1页面顶部-->
+    <header id="header">
+		<img src="img/loading.gif" alt="">
+	</header>
+	<!--3.页面主导航-->
+	<nav id="nav" >
+		<!--全部商品分类-->
+		<p>
+			<a href="">全部商品分类</a>
+		</p>
+		<!--导航列表-->
+		<ul>
+			<li><a href="">首页</a></li>
+			<li><a href="">优惠劵</a></li>
+			<li><a href="">闪购</a></li>
+			<li><a href="">团购</a></li>
+			<li><a href="">服装城</a></li>
+			<li><a href="">商城超市</a></li>
+			<li><a href="">生鲜</a></li>
+		</ul>
+	</nav>
+	<!--4.banner部分-->
+	<div id="banner">
+		<!--1、分类信息-->
+		<ul id="cate_box">
+			<li><a href="">图书、音像、数字商品</a></li>
+			<li><a href="">家用电器</a>
+			 <div id="sub_cate_box">
+                 <!--1、关闭按钮-->
+				 <!--2、3级分类内容-->
+				 <div id="sub_cate_items">
+					 <ul>
+						 <li class="title"><a href="">电子书</a></li>
+						 <li><a href="">免费</a></li>
+						 <li><a href="">小说</a></li>
+						 <li><a href="">励志与成功</a></li>
+						 <li><a href="">婚恋/两性</a></li>
+						 <li><a href="">文学</a></li>
+						 <li><a href="">畅读VIP</a></li>
+					 </ul>
+					 <ul>
+						 <li class="title"><a href="">电子书</a></li>
+						 <li><a href="">免费</a></li>
+						 <li><a href="">小说</a></li>
+						 <li><a href="">励志与成功</a></li>
+						 <li><a href="">婚恋/两性</a></li>
+						 <li><a href="">文学</a></li>
+						 <li><a href="">畅读VIP</a></li>
+					 </ul>
+				 </div>
+				 <div class="sub_cate_msg">
+					 <img src="img/cate_banner_01.jpg" alt="">
+					 <img src="img/cate_banner_02.jpg" alt="">
+                     <h4>推荐品牌出版商</h4>
+                     <h4>中华书局</h4>
+                     <h4>上海世纪出版股份有限公司</h4>
+                     <h4>电子工业出版社</h4>
+                     <h4>电子工业出版社</h4>
+                     <h4>电子工业出版社</h4>
+				 </div>
+			 </div>
+			</li>
+        <li><a href="">手机、数码、通信</a></li>
+        <li><a href="">电脑/办公</a></li>
+        <li><a href="">家居/家具</a></li>
+        <li><a href="">男装/女装</a></li>
+        <li><a href="">美妆个护/宠物</a></li>
+        <li><a href="">女鞋/箱包/钟表</a></li>
+        <li><a href="">男鞋/运动/户外</a></li>
+        <li><a href="">汽车/汽车用品</a></li>
+        <li><a href="">食品/酒类/生鲜</a></li>
+        <li><a href="">礼品/鲜花/农资绿洲</a></li>
+        <li><a href="">机票/酒店/旅游/生活</a></li>
+		</ul>
+		<!--2、banner轮播图-->
+		<div id="slider_box">
+           <!---上：滑动广告-->
+			<div id="slider">
+				<ul id="imgs">
+				</ul>
+				<!---数字列表-->
+				<ul id="indexs">
+				</ul>
+			</div>
+
+			<div id="ad">
+				<!----这个箭头  pre上一页 next 下一页--->
+				<span  class="previous"></span>
+				<span  class="next" id="adNext"></span>
+				<!--下：三副小图广告-->
+				<ul class="lf" id="main_add">
+					<li>
+						<ul>
+							<li><img src="img/index/add_001.jpg" alt=""></li>
+							<li><img src="img/index/add_002.jpg" alt=""></li>
+							<li><img src="img/index/add_003.jpg" alt=""></li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li><img src="img/index/add_004.jpg" alt=""></li>
+							<li><img src="img/index/add_005.jpg" alt=""></li>
+							<li><img src="img/index/add_006.jpg" alt=""></li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li><img src="img/index/add_007.jpg" alt=""></li>
+							<li><img src="img/index/add_008.jpg" alt=""></li>
+							<li><img src="img/index/add_009.jpg" alt=""></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--3、用户登录信息和广告-->
+		<div id="extra">
+          <!--1.用户登录信息-->
+			<div class="er_msg">
+				<img src="img/index/no_login.jpg" alt="">
+				 <p>Hi,<i class="utitle"></i> 欢迎来到商城</p>
+				  <p><a href="">登录</a><a href="">注册</a></p>
+				<span>新人福利</span> <span>PLU会员</span>
+			</div>
+			<!---东京快报-->
+			  <div id="news">
+				  <p>
+					  <a href="" class="rt">更多优惠&gt;&gt;</a>
+					  <b>商城快报</b>
+				  </p>
+				  <div>
+					  <!--左边文字-->
+					  <ul class="lf">
+						  <li><a href="">圣诞送1980元大礼</a></li>
+						  <li><a href="">笔记本1212秒</a></li>
+						  <li><a href="">主题乐园门票5折起</a></li>
+						  <li><a href="">居家好物暖暖季跨店</a></li>
+					  </ul>
+					  <!--右边文字--->
+					  <ul class="rt">
+						  <li><a href="">居家跨店3件7折</a></li>
+						  <li><a href="">主题乐园门票5折起</a></li>
+						  <li><a href="">笔记本1212秒</a></li>
+						  <li><a href="">松鼠好年货，2折开抢</a></li>
+					  </ul>
+				  </div>
+			  </div>
+			<!--虚拟相关-->
+			<ul id="virtuals">
+				<li><a href=""><b></b>话费</a></li>
+				<li><a href=""><b></b>机票</a></li>
+				<li><a href=""><b></b>酒店</a></li>
+				<li><a href=""><b></b>火车票</a></li>
+				<li><a href=""><b></b>电影票</a></li>
+				<li><a href=""><b></b>彩票</a></li>
+				<li><a href=""><b></b>理财</a></li>
+				<li><a href=""><b></b>游戏</a></li>
+			</ul>
+		</div>
+		<!--4、空元素-->
+		<div class="clear"></div>
+	</div>
+	<!--5.页面主体-->
+    <!--秒杀商品-->
+
+	<section id="main">
+        <!--秒杀商品-->
+        <div id="sec_time">
+            <!--文本和倒计时-->
+            <div class="sec_lf lf">
+                <span>限时秒杀 <i>总有你想不到的低价</i></span>
+            </div>
+              <div class="sec_fr rt">
+                  <span>当前场次</span>
+                  <span class="cd_item" id="hour"></span>
+                  <i class="did">:</i>
+                  <span class="cd_item" id="minute"></span>
+                  <i class="did">:</i>
+                  <span class="cd_item" id="second"></span>
+                  <span>后结束抢购</span>
+              </div>
+		</div>
+            <!--六个展示图 无缝滚动-->
+			<div class="product_show">
+				<div>
+					<ul id="product_show_one">
+						<li>
+							<a href=""><img src="img/hot/phone_pic.jpg" alt=""></a>
+							<p>诺基亚 7 (Nokia 7) 4GB+64GB 黑色 全网通 双卡双待 移动联通电信4G手机</p>
+							<p><i>¥</i><span>2299.00</span><i>¥2499.00</i></p>
+
+						</li>
+						<li>
+							<a href=""><img src="img/hot/5a0d0bacNfebb604e.jpg" alt=""></a>
+							<p>华硕(ASUS) 顽石电竞版FL8000UN 15.6英寸笔记本电脑(i7-8550U 8G 1T MX150 4G独显 FHD)灰色</p>
+							<p><i>¥</i><span>4990.00</span><i>¥5899.00</i></p>
+						</li>
+						<li>
+							<a href=""><img src="img/hot/59ed8b95N45d478aa.jpg" alt=""></a>
+							<p>联想(Lenovo)拯救者R720 15.6英寸游戏笔记本电脑(i7-7700HQ 8G 1T+128G SSD GTX1050Ti 4G IPS 黑)</p>
+							<p><i>¥</i><span>4990.00</span><i>¥5899.00</i></p>
+						</li>
+						<li><img src="img/hot/598ac0c0N5493e2bd.jpg" alt="">
+							<p>联想(Lenovo)拯救者R720 15.6英寸游戏笔记本电脑(i7-7700HQ 8G 1T+128G SSD GTX1050Ti 4G IPS 黑)</p>
+							<p><i>¥</i><span>4990.00</span><i>¥5899.00</i></p>
+						</li>
+						<li><img src="img/hot/59395998Nf184bf4a.jpg" alt="">
+							<p>联想(Lenovo)拯救者R720 15.6英寸游戏笔记本电脑(i7-7700HQ 8G 1T+128G SSD GTX1050Ti 4G IPS 黑)</p>
+							<p><i>¥</i><span>4990.00</span><i>¥5899.00</i></p></li>
+						<li><img src="img/hot/59ff2485N2f335d35.jpg" alt="">
+							<p>联想(Lenovo)拯救者R720 15.6英寸游戏笔记本电脑(i7-7700HQ 8G 1T+128G SSD GTX1050Ti 4G IPS 黑)</p>
+							<p><i>¥</i><span>4990.00</span><i>¥5899.00</i></p>
+						</li>
+					</ul>
+					<ul id="product_show_two">
+						<li>
+							<a href=""><img src="img/hot/phone_pic.jpg" alt=""></a>
+							<p>诺基亚 7 (Nokia 7) 4GB+64GB 黑色 全网通 双卡双待 移动联通电信4G手机</p>
+							<p><i>¥</i><span>2299.00</span><i>¥2499.00</i></p>
+
+						</li>
+						<li>
+							<a href=""><img src="img/hot/5a0d0bacNfebb604e.jpg" alt=""></a>
+							<p>华硕(ASUS) 顽石电竞版FL8000UN 15.6英寸笔记本电脑(i7-8550U 8G 1T MX150 4G独显 FHD)灰色</p>
+							<p><i>¥</i><span>4990.00</span><i>¥5899.00</i></p>
+						</li>
+						<li>
+							<a href=""><img src="img/hot/59ed8b95N45d478aa.jpg" alt=""></a>
+							<p>联想(Lenovo)拯救者R720 15.6英寸游戏笔记本电脑(i7-7700HQ 8G 1T+128G SSD GTX1050Ti 4G IPS 黑)</p>
+							<p><i>¥</i><span>4990.00</span><i>¥5899.00</i></p>
+						</li>
+						<li><img src="img/hot/598ac0c0N5493e2bd.jpg" alt="">
+							<p>联想(Lenovo)拯救者R720 15.6英寸游戏笔记本电脑(i7-7700HQ 8G 1T+128G SSD GTX1050Ti 4G IPS 黑)</p>
+							<p><i>¥</i><span>4990.00</span><i>¥5899.00</i></p>
+						</li>
+						<li><img src="img/hot/59395998Nf184bf4a.jpg" alt="">
+							<p>联想(Lenovo)拯救者R720 15.6英寸游戏笔记本电脑(i7-7700HQ 8G 1T+128G SSD GTX1050Ti 4G IPS 黑)</p>
+							<p><i>¥</i><span>4990.00</span><i>¥5899.00</i></p>
+						</li>
+						<li><img src="img/hot/59ff2485N2f335d35.jpg" alt="">
+							<p>联想(Lenovo)拯救者R720 15.6英寸游戏笔记本电脑(i7-7700HQ 8G 1T+128G SSD GTX1050Ti 4G IPS 黑)</p>
+							<p><i>¥</i><span>4990.00</span><i>¥5899.00</i></p>
+						</li>
+					</ul>
+
+				</div>
+
+        </div>
+		<!--1、生活的橱窗-->
+		<div id="show_box" class="clear">
+			<!--1.1、文本：生活的橱窗-->
+		<p>生活的橱窗 <i>每一天展示精彩!</i> </p>
+			<!--1.2、8幅图像-->
+		<ul>
+			<!---相对定位：配合文本的绝对定位-->
+			<li class="pinpaijie">
+				<!--遮盖层-->
+				<b></b>
+				<!--文本：绝对定位-->
+				<div>
+                    <h2 class="one">品牌街</h2>
+					<h3 class="two">三星note</h3>
+					<h3 class="three">赠送500积分</h3>
+					<h5><a href="">-更多品牌</a></h5>
+					<h5><a href="">-进入品牌街</a></h5>
+				</div>
+			</li>
+			<li class="dijia">
+				<!--遮盖层-->
+				<b></b>
+				<div>
+				<h2 class="one">天天低价</h2>
+				<h3>坚果</h3>
+				<span class="four">95.8元秒杀</span>
+		</div>
+			</li>
+			<li class="goods">
+				<!--遮盖层-->
+				<b></b>
+				<div>
+					<h2 class="one">好东西</h2>
+					<h3 class="two">罗技蓝牙键盘</h3>
+					<h3 class="three">舒适键入249</h3>
+					<h5><a href="">-鼠标送红包</a></h5>
+					<h5><a href="">-逛更多</a></h5>
+				</div>
+
+			</li>
+			<li class="tuan">
+				<!--遮盖层-->
+				<b></b>
+				<div>
+					<h2 class="one">今日团购</h2>
+					<h3 class="two">100元代金券</h3>
+					<span>团购价</span><b class="five">¥ 89</b>
+					<p>
+						<img src="img/index/cantuan.png" alt="">
+					</p>
+
+				</div>
+
+			</li>
+			<li class="shoufa">
+				<!--遮盖层-->
+				<b></b>
+				<div>
+					<h2 class="one">商城首发</h2>
+					<h3>MOTO X</h3>
+					<span class="four">强势回归现货抢</span>
+				</div>
+			</li>
+			<li class="youhui">
+				<!--遮盖层-->
+				<b></b>
+			</li>
+			<li class="yus">
+				<!--遮盖层-->
+				<b></b>
+			</li>
+			<li class="jinr">
+				<!--遮盖层-->
+				<b></b>
+			</li>
+		</ul>
+			<!--1.3 3幅小广告-->
+			 <div id="show_ads">
+				 <ul>
+					 <li><a href=""><img src="img/index/ad_small_01.jpg" alt=""></a></li>
+					 <li class="show_ads_mid"><a href=""><img src="img/index/ad_small_02.jpg" alt=""></a></li>
+					 <li><a href=""><img src="img/index/ad_small_03.jpg" alt=""></a></li>
+				 </ul>
+			 </div>
+			<!---空标签-->
+			<div class="clear"></div>
+		</div>
+		<!--分类楼层-->
+		<div class="all_floor">
+			<!--、1F-->
+			<div id="floor_1" class="floor">
+				<!--1F顶部-->
+				<div class="floor_header">
+					<h1><span class="floor_name">1F</span>服装鞋包</h1>
+					<ul class="floor_list">
+						<li class="on_floor_list"><a href="">大牌</a></li>
+						<li><a href="">男装</a></li>
+						<li><a href="">女装</a></li>
+						<li><a href="">鞋靴</a></li>
+						<li><a href="">箱包</a></li>
+						<li><a>内衣配饰</a></li>
+						<li><a>珠宝手饰</a></li>
+						<li><a>奢品礼品</a></li>
+						<li><a>奢华腕表</a></li>
+					</ul>
+				</div>
+				<!---楼层主体内容-->
+				<div class="floor_content">
+					<!--楼层左边大图-->
+					<div class="floor_content_left">
+						<div class="floor_content_left_top">
+							<div>
+								<img src="img/floor/55eefeadN343d1714%20.jpg" />
+							</div>
+
+							<div class="floor_content_left_con">
+								<!--左边中间商品分类-->
+								<ul class="floor_but">
+									<li><i class="floor_but_icon floor_but_men"></i>男装</li>
+									<li><i class="floor_but_icon floor_but_women"></i>女装</li>
+									<li><i class="floor_but_icon floor_but_under"></i>内衣</li>
+									<li><i class="floor_but_icon floor_but_shoes"></i>鞋靴</li>
+									<li><i class="floor_but_icon floor_but_bag"></i>箱包</li>
+									<li><i class="floor_but_icon floor_but_luxury"></i>奢侈品</li>
+								</ul>
+								<!--左边底部商品分类-->
+								<div class="floor_text">
+									<span>
+            					<a class="red">女装上新</a><a>品质男鞋</a><a>服装城</a><a>真丝丝巾</a><a class="red">女鞋上新</a><a class="red">男装上新</a><a>舒适内衣</a><a>奢侈品</a>
+            				</span>
+									<span>
+            					<a>菩提手串</a><a class="red">水晶手链</a><a>时尚女包</a><a>精品男包</a><a class="red">小叶紫檀</a><a>奢品名表</a><a>人气腕表</a><a>炫酷腕表</a>
+            				</span>
+								</div>
+							</div>
+						</div>
+						<!---左边底部图片-->
+						<div class="floor_content_left_ad">
+							<img src="img/floor/55efc9e7N3c7b340a.jpg" />
+						</div>
+					</div>
+
+					<div class="floor_main_wrap">
+						<!---大牌-->
+						<ul class="floor_main floor_main_show">
+							<li><img src="img/floor/55efd935N061e3628.jpg" /></li>
+							<li><img src="img/floor/55ef009dNc5c7f107.jpg" /></li>
+							<li><img src="img/floor/55ef00e6N8b1048d6.jpg" /></li>
+							<li class="floor_1_shuffling">
+								<div class="shuffling">
+									<ul class="shuffling_ul">
+										<li><img src="img/floor/55ef8eccN82a06d85.jpg" /></li>
+										<li><img src="img/floor/55eeffc8N7d5cae0d.jpg" /></li>
+										<li><img src="img/floor/55eff578N791b7729.jpg" /></li>
+										<li><img src="img/floor/55ef0048N2963b4c5.jpg" /></li>
+									</ul>
+									<span class="shuffling_i">
+                			   	<ul class="shuffling_i_ul">
+                			   	<li class="shuffling_i_li on_li"></li>
+                			   	<li class="shuffling_i_li"></li>
+                			   	<li class="shuffling_i_li"></li>
+                			   	<li class="shuffling_i_li"></li>
+                			   	</ul>
+                			   </span>
+									<span class="shuffling_prev">&lt;</span>
+									<span class="shuffling_next">&gt;</span>
+								</div>
+							</li>
+							<li><img src="img/floor/55ef0150N26fa97cd.jpg" /></li>
+							<li><img src="img/floor/55ef0131N09b37880.jpg" /></li>
+							<li><img src="img/floor/55ef00c1Na8e5edde.jpg" /></li>
+							<li><img src="img/floor/55ef02fcN7ec39949.jpg" /></li>
+							<li><img src="img/floor/55ece878N9e4cf441.jpg" /></li>
+							<li><img src="img/floor/55ef0185N3b90777c.jpg" /></li>
+							<li><img src="img/floor/55ef04f9N8ff54353.jpg" /></li>
+						</ul>
+						<!---男装--->
+						<ul class="floor_main">
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee71a1N9de670bb.jpg" /></div>
+									<span class="floor_main_goods_title">大卫山棉羊毛长袖衬衫</span>
+									<p class="floor_main_goods_price">￥258.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee7512N61f878d2.png" /></div>
+									<span class="floor_main_goods_title">GXG 男士时尚修身潮流百搭纯色长袖衬衫</span>
+									<p class="floor_main_goods_price">￥269.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee7c86N04a3885e.jpg" /></div>
+									<span class="floor_main_goods_title">FIRS杉杉男士长袖衬衫 硬领欧版提花长衬衣</span>
+									<p class="floor_main_goods_price">￥159.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ecedd9N6aa725d4.jpg" /></div>
+									<span class="floor_main_goods_title">亚狮龙男士休闲裤 男 修身直筒休闲长裤</span>
+									<p class="floor_main_goods_price">￥168.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eff8e6Nfd8316ff.jpg" /></div>
+									<span class="floor_main_goods_title">YOHO!有货 潮几何设计拼接连帽卫衣</span>
+									<p class="floor_main_goods_price">￥439.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55daec11N69ec0c62.jpg" /></div>
+									<span class="floor_main_goods_title">海澜之家男装时尚提花商务衬衫</span>
+									<p class="floor_main_goods_price">￥158.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ef8f3bN1bb62048.jpg" /></div>
+									<span class="floor_main_goods_title">美特斯邦威男装梭织洗水紧身休闲长裤</span>
+									<p class="floor_main_goods_price">￥168.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee71a1N9de670bb.jpg" /></div>
+									<span class="floor_main_goods_title">七匹狼夹克外套 立领男士时尚休闲外套夹克</span>
+									<p class="floor_main_goods_price">￥559.00</p>
+								</div>
+							</li>
+							<li><img src="img/floor/55ee9aeaNe6dcadec.jpg" /></li>
+							<li><img src="img/floor/55f0008fN0b7916e4.jpg" /></li>
+							<li><img src="img/floor/55ef02fcN7ec39949.jpg" /></li>
+							<li><img src="img/floor/55ef0313Nb48f52e3.jpg" /></li>
+						</ul>
+						<!----->
+						<ul class="floor_main">
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55e3f986Ncfb59972.jpg" /></div>
+									<span class="floor_main_goods_title">clarks正装男鞋 Kalden Edge</span>
+									<p class="floor_main_goods_price">￥899.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55b86d70N53ef105b.jpg" /></div>
+									<span class="floor_main_goods_title">satchi沙驰男鞋 商务正装鞋</span>
+									<p class="floor_main_goods_price">￥799.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee85c4Nd7c03cde.jpg" /></div>
+									<span class="floor_main_goods_title">Cele策乐秋季新品一脚蹬休闲皮鞋</span>
+									<p class="floor_main_goods_price">￥699.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55dc3531N662761a8.jpg" /></div>
+									<span class="floor_main_goods_title">大洋洲袋鼠 男鞋休闲鞋</span>
+									<p class="floor_main_goods_price">￥499.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eeaf3cN680d70d3.jpg" /></div>
+									<span class="floor_main_goods_title">奥卡索百搭舒适休闲鞋运动女鞋</span>
+									<p class="floor_main_goods_price">￥269.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55cc35bdN56eec269.jpg" /></div>
+									<span class="floor_main_goods_title">Belle/百丽秋季黑色光牛皮女皮鞋</span>
+									<p class="floor_main_goods_price">￥378.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eeae18Nc40c6759.jpg" /></div>
+									<span class="floor_main_goods_title">Charles&Keith秋季新款斜拉链尖头细高跟短筒靴</span>
+									<p class="floor_main_goods_price">￥459.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eeb444N7a7822b2.jpg" /></div>
+									<span class="floor_main_goods_title">奥康女鞋真皮粗跟单鞋</span>
+									<p class="floor_main_goods_price">￥289.00</p>
+								</div>
+							</li>
+							<li><img src="img/floor/55ef03b4Nd22d90ea.jpg" /></li>
+							<li><img src="img/floor/55ef88efNf0f346bb.jpg" /></li>
+							<li><img src="img/floor/55ef03e2N4d68b336.jpg" /></li>
+							<li><img src="img/floor/55efc9fcN29723a4a.jpg" /></li>
+						</ul>
+						<!---->
+						<ul class="floor_main">
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee71a1N9de670bb.jpg" /></div>
+									<span class="floor_main_goods_title">大卫山棉羊毛长袖衬衫</span>
+									<p class="floor_main_goods_price">￥258.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee7512N61f878d2.png" /></div>
+									<span class="floor_main_goods_title">GXG 男士时尚修身潮流百搭纯色长袖衬衫</span>
+									<p class="floor_main_goods_price">￥269.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee7c86N04a3885e.jpg" /></div>
+									<span class="floor_main_goods_title">FIRS杉杉男士长袖衬衫 硬领欧版提花长衬衣</span>
+									<p class="floor_main_goods_price">￥159.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ecedd9N6aa725d4.jpg" /></div>
+									<span class="floor_main_goods_title">亚狮龙男士休闲裤 男 修身直筒休闲长裤</span>
+									<p class="floor_main_goods_price">￥168.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eff8e6Nfd8316ff.jpg" /></div>
+									<span class="floor_main_goods_title">YOHO!有货 潮几何设计拼接连帽卫衣</span>
+									<p class="floor_main_goods_price">￥439.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55daec11N69ec0c62.jpg" /></div>
+									<span class="floor_main_goods_title">海澜之家男装时尚提花商务衬衫</span>
+									<p class="floor_main_goods_price">￥158.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ef8f3bN1bb62048.jpg" /></div>
+									<span class="floor_main_goods_title">美特斯邦威男装梭织洗水紧身休闲长裤</span>
+									<p class="floor_main_goods_price">￥168.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee71a1N9de670bb.jpg" /></div>
+									<span class="floor_main_goods_title">七匹狼夹克外套 立领男士时尚休闲外套夹克</span>
+									<p class="floor_main_goods_price">￥559.00</p>
+								</div>
+							</li>
+							<li><img src="img/floor/55ee9aeaNe6dcadec.jpg" /></li>
+							<li><img src="img/floor/55f0008fN0b7916e4.jpg" /></li>
+							<li><img src="img/floor/55ef02fcN7ec39949.jpg" /></li>
+							<li><img src="img/floor/55ef0313Nb48f52e3.jpg" /></li>
+						</ul>
+						<!----->
+						<ul class="floor_main">
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55e3f986Ncfb59972.jpg" /></div>
+									<span class="floor_main_goods_title">clarks正装男鞋 Kalden Edge</span>
+									<p class="floor_main_goods_price">￥899.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55b86d70N53ef105b.jpg" /></div>
+									<span class="floor_main_goods_title">satchi沙驰男鞋 商务正装鞋</span>
+									<p class="floor_main_goods_price">￥799.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee85c4Nd7c03cde.jpg" /></div>
+									<span class="floor_main_goods_title">Cele策乐秋季新品一脚蹬休闲皮鞋</span>
+									<p class="floor_main_goods_price">￥699.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55dc3531N662761a8.jpg" /></div>
+									<span class="floor_main_goods_title">大洋洲袋鼠 男鞋休闲鞋</span>
+									<p class="floor_main_goods_price">￥499.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eeaf3cN680d70d3.jpg" /></div>
+									<span class="floor_main_goods_title">奥卡索百搭舒适休闲鞋运动女鞋</span>
+									<p class="floor_main_goods_price">￥269.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55cc35bdN56eec269.jpg" /></div>
+									<span class="floor_main_goods_title">Belle/百丽秋季黑色光牛皮女皮鞋</span>
+									<p class="floor_main_goods_price">￥378.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eeae18Nc40c6759.jpg" /></div>
+									<span class="floor_main_goods_title">Charles&Keith秋季新款斜拉链尖头细高跟短筒靴</span>
+									<p class="floor_main_goods_price">￥459.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eeb444N7a7822b2.jpg" /></div>
+									<span class="floor_main_goods_title">奥康女鞋真皮粗跟单鞋</span>
+									<p class="floor_main_goods_price">￥289.00</p>
+								</div>
+							</li>
+							<li><img src="img/floor/55ef03b4Nd22d90ea.jpg" /></li>
+							<li><img src="img/floor/55ef88efNf0f346bb.jpg" /></li>
+							<li><img src="img/floor/55ef03e2N4d68b336.jpg" /></li>
+							<li><img src="img/floor/55efc9fcN29723a4a.jpg" /></li>
+						</ul>
+						<ul class="floor_main">
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee71a1N9de670bb.jpg" /></div>
+									<span class="floor_main_goods_title">大卫山棉羊毛长袖衬衫</span>
+									<p class="floor_main_goods_price">￥258.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee7512N61f878d2.png" /></div>
+									<span class="floor_main_goods_title">GXG 男士时尚修身潮流百搭纯色长袖衬衫</span>
+									<p class="floor_main_goods_price">￥269.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee7c86N04a3885e.jpg" /></div>
+									<span class="floor_main_goods_title">FIRS杉杉男士长袖衬衫 硬领欧版提花长衬衣</span>
+									<p class="floor_main_goods_price">￥159.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ecedd9N6aa725d4.jpg" /></div>
+									<span class="floor_main_goods_title">亚狮龙男士休闲裤 男 修身直筒休闲长裤</span>
+									<p class="floor_main_goods_price">￥168.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eff8e6Nfd8316ff.jpg" /></div>
+									<span class="floor_main_goods_title">YOHO!有货 潮几何设计拼接连帽卫衣</span>
+									<p class="floor_main_goods_price">￥439.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55daec11N69ec0c62.jpg" /></div>
+									<span class="floor_main_goods_title">海澜之家男装时尚提花商务衬衫</span>
+									<p class="floor_main_goods_price">￥158.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ef8f3bN1bb62048.jpg" /></div>
+									<span class="floor_main_goods_title">美特斯邦威男装梭织洗水紧身休闲长裤</span>
+									<p class="floor_main_goods_price">￥168.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee71a1N9de670bb.jpg" /></div>
+									<span class="floor_main_goods_title">七匹狼夹克外套 立领男士时尚休闲外套夹克</span>
+									<p class="floor_main_goods_price">￥559.00</p>
+								</div>
+							</li>
+							<li><img src="img/floor/55ee9aeaNe6dcadec.jpg" /></li>
+							<li><img src="img/floor/55f0008fN0b7916e4.jpg" /></li>
+							<li><img src="img/floor/55ef02fcN7ec39949.jpg" /></li>
+							<li><img src="img/floor/55ef0313Nb48f52e3.jpg" /></li>
+						</ul>
+						<!----->
+						<ul class="floor_main">
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55e3f986Ncfb59972.jpg" /></div>
+									<span class="floor_main_goods_title">clarks正装男鞋 Kalden Edge</span>
+									<p class="floor_main_goods_price">￥899.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55b86d70N53ef105b.jpg" /></div>
+									<span class="floor_main_goods_title">satchi沙驰男鞋 商务正装鞋</span>
+									<p class="floor_main_goods_price">￥799.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee85c4Nd7c03cde.jpg" /></div>
+									<span class="floor_main_goods_title">Cele策乐秋季新品一脚蹬休闲皮鞋</span>
+									<p class="floor_main_goods_price">￥699.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55dc3531N662761a8.jpg" /></div>
+									<span class="floor_main_goods_title">大洋洲袋鼠 男鞋休闲鞋</span>
+									<p class="floor_main_goods_price">￥499.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eeaf3cN680d70d3.jpg" /></div>
+									<span class="floor_main_goods_title">奥卡索百搭舒适休闲鞋运动女鞋</span>
+									<p class="floor_main_goods_price">￥269.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55cc35bdN56eec269.jpg" /></div>
+									<span class="floor_main_goods_title">Belle/百丽秋季黑色光牛皮女皮鞋</span>
+									<p class="floor_main_goods_price">￥378.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eeae18Nc40c6759.jpg" /></div>
+									<span class="floor_main_goods_title">Charles&Keith秋季新款斜拉链尖头细高跟短筒靴</span>
+									<p class="floor_main_goods_price">￥459.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eeb444N7a7822b2.jpg" /></div>
+									<span class="floor_main_goods_title">奥康女鞋真皮粗跟单鞋</span>
+									<p class="floor_main_goods_price">￥289.00</p>
+								</div>
+							</li>
+							<li><img src="img/floor/55ef03b4Nd22d90ea.jpg" /></li>
+							<li><img src="img/floor/55ef88efNf0f346bb.jpg" /></li>
+							<li><img src="img/floor/55ef03e2N4d68b336.jpg" /></li>
+							<li><img src="img/floor/55efc9fcN29723a4a.jpg" /></li>
+						</ul>
+						<ul class="floor_main">
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee71a1N9de670bb.jpg" /></div>
+									<span class="floor_main_goods_title">大卫山棉羊毛长袖衬衫</span>
+									<p class="floor_main_goods_price">￥258.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee7512N61f878d2.png" /></div>
+									<span class="floor_main_goods_title">GXG 男士时尚修身潮流百搭纯色长袖衬衫</span>
+									<p class="floor_main_goods_price">￥269.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee7c86N04a3885e.jpg" /></div>
+									<span class="floor_main_goods_title">FIRS杉杉男士长袖衬衫 硬领欧版提花长衬衣</span>
+									<p class="floor_main_goods_price">￥159.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ecedd9N6aa725d4.jpg" /></div>
+									<span class="floor_main_goods_title">亚狮龙男士休闲裤 男 修身直筒休闲长裤</span>
+									<p class="floor_main_goods_price">￥168.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eff8e6Nfd8316ff.jpg" /></div>
+									<span class="floor_main_goods_title">YOHO!有货 潮几何设计拼接连帽卫衣</span>
+									<p class="floor_main_goods_price">￥439.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55daec11N69ec0c62.jpg" /></div>
+									<span class="floor_main_goods_title">海澜之家男装时尚提花商务衬衫</span>
+									<p class="floor_main_goods_price">￥158.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ef8f3bN1bb62048.jpg" /></div>
+									<span class="floor_main_goods_title">美特斯邦威男装梭织洗水紧身休闲长裤</span>
+									<p class="floor_main_goods_price">￥168.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee71a1N9de670bb.jpg" /></div>
+									<span class="floor_main_goods_title">七匹狼夹克外套 立领男士时尚休闲外套夹克</span>
+									<p class="floor_main_goods_price">￥559.00</p>
+								</div>
+							</li>
+							<li><img src="img/floor/55ee9aeaNe6dcadec.jpg" /></li>
+							<li><img src="img/floor/55f0008fN0b7916e4.jpg" /></li>
+							<li><img src="img/floor/55ef02fcN7ec39949.jpg" /></li>
+							<li><img src="img/floor/55ef0313Nb48f52e3.jpg" /></li>
+						</ul>
+						<!----->
+						<ul class="floor_main">
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55e3f986Ncfb59972.jpg" /></div>
+									<span class="floor_main_goods_title">clarks正装男鞋 Kalden Edge</span>
+									<p class="floor_main_goods_price">￥899.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55b86d70N53ef105b.jpg" /></div>
+									<span class="floor_main_goods_title">satchi沙驰男鞋 商务正装鞋</span>
+									<p class="floor_main_goods_price">￥799.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee85c4Nd7c03cde.jpg" /></div>
+									<span class="floor_main_goods_title">Cele策乐秋季新品一脚蹬休闲皮鞋</span>
+									<p class="floor_main_goods_price">￥699.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55dc3531N662761a8.jpg" /></div>
+									<span class="floor_main_goods_title">大洋洲袋鼠 男鞋休闲鞋</span>
+									<p class="floor_main_goods_price">￥499.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eeaf3cN680d70d3.jpg" /></div>
+									<span class="floor_main_goods_title">奥卡索百搭舒适休闲鞋运动女鞋</span>
+									<p class="floor_main_goods_price">￥269.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55cc35bdN56eec269.jpg" /></div>
+									<span class="floor_main_goods_title">Belle/百丽秋季黑色光牛皮女皮鞋</span>
+									<p class="floor_main_goods_price">￥378.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eeae18Nc40c6759.jpg" /></div>
+									<span class="floor_main_goods_title">Charles&Keith秋季新款斜拉链尖头细高跟短筒靴</span>
+									<p class="floor_main_goods_price">￥459.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eeb444N7a7822b2.jpg" /></div>
+									<span class="floor_main_goods_title">奥康女鞋真皮粗跟单鞋</span>
+									<p class="floor_main_goods_price">￥289.00</p>
+								</div>
+							</li>
+							<li><img src="img/floor/55ef03b4Nd22d90ea.jpg" /></li>
+							<li><img src="img/floor/55ef88efNf0f346bb.jpg" /></li>
+							<li><img src="img/floor/55ef03e2N4d68b336.jpg" /></li>
+							<li><img src="img/floor/55efc9fcN29723a4a.jpg" /></li>
+						</ul>
+
+					</div>
+
+
+
+				</div>
+			</div>
+			<div class="brand_wall">
+				<ul>
+					<li><img src="img/floor/55b5a4feNa940e016.jpg" /></li>
+					<li><img src="img/floor/55ed6017N122bdd04.png" /></li>
+					<li><img src="img/floor/55ee7ea8Nc7bfaebd.jpg" /></li>
+					<li><img src="img/floor/55efc386N9513b3ee.jpg" /></li>
+					<li><img src="img/floor/55ef8decN8669ae66.jpg" /></li>
+					<li><img src="img/floor/55ebd87cNaffcf093.jpg" /></li>
+					<li><img src="img/floor/55c44931N90b5af3b.jpg" /></li>
+					<li><img src="img/floor/55d6ba94N00155fbf.jpg" /></li>
+					<li><img src="img/floor/55d1aa0fNc446001a.jpg" /></li>
+					<li><img src="img/floor/55ed03eaNe9188590.png" /></li>
+				</ul>
+			</div>
+			<div id="floor_2" class="floor">
+				<!--1F顶部-->
+				<div class="floor_header">
+					<h1><span class="floor_name">2F</span>服装鞋包</h1>
+					<ul class="floor_list">
+						<li class="on_floor_list"><a >大牌</a></li>
+						<li><a>男装</a></li>
+						<li><a >女装</a></li>
+						<li><a>鞋靴</a></li>
+						<li><a>箱包</a></li>
+						<li><a>内衣配饰</a></li>
+						<li><a>珠宝手饰</a></li>
+						<li><a>奢品礼品</a></li>
+						<li><a>奢华腕表</a></li>
+					</ul>
+				</div>
+				<!---楼层主体内容-->
+				<div class="floor_content">
+					<!--楼层左边大图-->
+					<div class="floor_content_left">
+						<div class="floor_content_left_top">
+							<div>
+								<img src="img/floor/55eefeadN343d1714%20.jpg" />
+							</div>
+
+							<div class="floor_content_left_con">
+								<!--左边中间商品分类-->
+								<ul class="floor_but">
+									<li><i class="floor_but_icon floor_but_men"></i>男装</li>
+									<li><i class="floor_but_icon floor_but_women"></i>女装</li>
+									<li><i class="floor_but_icon floor_but_under"></i>内衣</li>
+									<li><i class="floor_but_icon floor_but_shoes"></i>鞋靴</li>
+									<li><i class="floor_but_icon floor_but_bag"></i>箱包</li>
+									<li><i class="floor_but_icon floor_but_luxury"></i>奢侈品</li>
+								</ul>
+								<!--左边底部商品分类-->
+								<div class="floor_text">
+									<span>
+            					<a class="red">女装上新</a><a>品质男鞋</a><a>服装城</a><a>真丝丝巾</a><a class="red">女鞋上新</a><a class="red">男装上新</a><a>舒适内衣</a><a>奢侈品</a>
+            				</span>
+									<span>
+            					<a>菩提手串</a><a class="red">水晶手链</a><a>时尚女包</a><a>精品男包</a><a class="red">小叶紫檀</a><a>奢品名表</a><a>人气腕表</a><a>炫酷腕表</a>
+            				</span>
+								</div>
+							</div>
+						</div>
+						<!---左边底部图片-->
+						<div class="floor_content_left_ad">
+							<img src="img/floor/55efc9e7N3c7b340a.jpg" />
+						</div>
+					</div>
+
+					<div class="floor_main_wrap">
+						<!---大牌-->
+						<ul class="floor_main floor_main_show">
+							<li><img src="img/floor/55efd935N061e3628.jpg" /></li>
+							<li><img src="img/floor/55ef009dNc5c7f107.jpg" /></li>
+							<li><img src="img/floor/55ef00e6N8b1048d6.jpg" /></li>
+							<li class="floor_1_shuffling">
+								<div class="shuffling">
+									<ul class="shuffling_ul">
+										<li><img src="img/floor/55ef8eccN82a06d85.jpg" /></li>
+										<li><img src="img/floor/55eeffc8N7d5cae0d.jpg" /></li>
+										<li><img src="img/floor/55eff578N791b7729.jpg" /></li>
+										<li><img src="img/floor/55ef0048N2963b4c5.jpg" /></li>
+									</ul>
+									<span class="shuffling_i">
+                			   	<ul class="shuffling_i_ul">
+                			   	<li class="shuffling_i_li on_li"></li>
+                			   	<li class="shuffling_i_li"></li>
+                			   	<li class="shuffling_i_li"></li>
+                			   	<li class="shuffling_i_li"></li>
+                			   	</ul>
+                			   </span>
+									<span class="shuffling_prev">&lt;</span>
+									<span class="shuffling_next">&gt;</span>
+								</div>
+							</li>
+							<li><img src="img/floor/55ef0150N26fa97cd.jpg" /></li>
+							<li><img src="img/floor/55ef0131N09b37880.jpg" /></li>
+							<li><img src="img/floor/55ef00c1Na8e5edde.jpg" /></li>
+							<li><img src="img/floor/55ef02fcN7ec39949.jpg" /></li>
+							<li><img src="img/floor/55ece878N9e4cf441.jpg" /></li>
+							<li><img src="img/floor/55ef0185N3b90777c.jpg" /></li>
+							<li><img src="img/floor/55ef04f9N8ff54353.jpg" /></li>
+						</ul>
+						<!---男装--->
+						<ul class="floor_main">
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee71a1N9de670bb.jpg" /></div>
+									<span class="floor_main_goods_title">大卫山棉羊毛长袖衬衫</span>
+									<p class="floor_main_goods_price">￥258.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee7512N61f878d2.png" /></div>
+									<span class="floor_main_goods_title">GXG 男士时尚修身潮流百搭纯色长袖衬衫</span>
+									<p class="floor_main_goods_price">￥269.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee7c86N04a3885e.jpg" /></div>
+									<span class="floor_main_goods_title">FIRS杉杉男士长袖衬衫 硬领欧版提花长衬衣</span>
+									<p class="floor_main_goods_price">￥159.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ecedd9N6aa725d4.jpg" /></div>
+									<span class="floor_main_goods_title">亚狮龙男士休闲裤 男 修身直筒休闲长裤</span>
+									<p class="floor_main_goods_price">￥168.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eff8e6Nfd8316ff.jpg" /></div>
+									<span class="floor_main_goods_title">YOHO!有货 潮几何设计拼接连帽卫衣</span>
+									<p class="floor_main_goods_price">￥439.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55daec11N69ec0c62.jpg" /></div>
+									<span class="floor_main_goods_title">海澜之家男装时尚提花商务衬衫</span>
+									<p class="floor_main_goods_price">￥158.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ef8f3bN1bb62048.jpg" /></div>
+									<span class="floor_main_goods_title">美特斯邦威男装梭织洗水紧身休闲长裤</span>
+									<p class="floor_main_goods_price">￥168.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee71a1N9de670bb.jpg" /></div>
+									<span class="floor_main_goods_title">七匹狼夹克外套 立领男士时尚休闲外套夹克</span>
+									<p class="floor_main_goods_price">￥559.00</p>
+								</div>
+							</li>
+							<li><img src="img/floor/55ee9aeaNe6dcadec.jpg" /></li>
+							<li><img src="img/floor/55f0008fN0b7916e4.jpg" /></li>
+							<li><img src="img/floor/55ef02fcN7ec39949.jpg" /></li>
+							<li><img src="img/floor/55ef0313Nb48f52e3.jpg" /></li>
+						</ul>
+						<!----->
+						<ul class="floor_main">
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55e3f986Ncfb59972.jpg" /></div>
+									<span class="floor_main_goods_title">clarks正装男鞋 Kalden Edge</span>
+									<p class="floor_main_goods_price">￥899.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55b86d70N53ef105b.jpg" /></div>
+									<span class="floor_main_goods_title">satchi沙驰男鞋 商务正装鞋</span>
+									<p class="floor_main_goods_price">￥799.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee85c4Nd7c03cde.jpg" /></div>
+									<span class="floor_main_goods_title">Cele策乐秋季新品一脚蹬休闲皮鞋</span>
+									<p class="floor_main_goods_price">￥699.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55dc3531N662761a8.jpg" /></div>
+									<span class="floor_main_goods_title">大洋洲袋鼠 男鞋休闲鞋</span>
+									<p class="floor_main_goods_price">￥499.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eeaf3cN680d70d3.jpg" /></div>
+									<span class="floor_main_goods_title">奥卡索百搭舒适休闲鞋运动女鞋</span>
+									<p class="floor_main_goods_price">￥269.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55cc35bdN56eec269.jpg" /></div>
+									<span class="floor_main_goods_title">Belle/百丽秋季黑色光牛皮女皮鞋</span>
+									<p class="floor_main_goods_price">￥378.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eeae18Nc40c6759.jpg" /></div>
+									<span class="floor_main_goods_title">Charles&Keith秋季新款斜拉链尖头细高跟短筒靴</span>
+									<p class="floor_main_goods_price">￥459.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eeb444N7a7822b2.jpg" /></div>
+									<span class="floor_main_goods_title">奥康女鞋真皮粗跟单鞋</span>
+									<p class="floor_main_goods_price">￥289.00</p>
+								</div>
+							</li>
+							<li><img src="img/floor/55ef03b4Nd22d90ea.jpg" /></li>
+							<li><img src="img/floor/55ef88efNf0f346bb.jpg" /></li>
+							<li><img src="img/floor/55ef03e2N4d68b336.jpg" /></li>
+							<li><img src="img/floor/55efc9fcN29723a4a.jpg" /></li>
+						</ul>
+						<!---->
+						<ul class="floor_main">
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee71a1N9de670bb.jpg" /></div>
+									<span class="floor_main_goods_title">大卫山棉羊毛长袖衬衫</span>
+									<p class="floor_main_goods_price">￥258.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee7512N61f878d2.png" /></div>
+									<span class="floor_main_goods_title">GXG 男士时尚修身潮流百搭纯色长袖衬衫</span>
+									<p class="floor_main_goods_price">￥269.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee7c86N04a3885e.jpg" /></div>
+									<span class="floor_main_goods_title">FIRS杉杉男士长袖衬衫 硬领欧版提花长衬衣</span>
+									<p class="floor_main_goods_price">￥159.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ecedd9N6aa725d4.jpg" /></div>
+									<span class="floor_main_goods_title">亚狮龙男士休闲裤 男 修身直筒休闲长裤</span>
+									<p class="floor_main_goods_price">￥168.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eff8e6Nfd8316ff.jpg" /></div>
+									<span class="floor_main_goods_title">YOHO!有货 潮几何设计拼接连帽卫衣</span>
+									<p class="floor_main_goods_price">￥439.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55daec11N69ec0c62.jpg" /></div>
+									<span class="floor_main_goods_title">海澜之家男装时尚提花商务衬衫</span>
+									<p class="floor_main_goods_price">￥158.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ef8f3bN1bb62048.jpg" /></div>
+									<span class="floor_main_goods_title">美特斯邦威男装梭织洗水紧身休闲长裤</span>
+									<p class="floor_main_goods_price">￥168.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee71a1N9de670bb.jpg" /></div>
+									<span class="floor_main_goods_title">七匹狼夹克外套 立领男士时尚休闲外套夹克</span>
+									<p class="floor_main_goods_price">￥559.00</p>
+								</div>
+							</li>
+							<li><img src="img/floor/55ee9aeaNe6dcadec.jpg" /></li>
+							<li><img src="img/floor/55f0008fN0b7916e4.jpg" /></li>
+							<li><img src="img/floor/55ef02fcN7ec39949.jpg" /></li>
+							<li><img src="img/floor/55ef0313Nb48f52e3.jpg" /></li>
+						</ul>
+						<!----->
+						<ul class="floor_main">
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55e3f986Ncfb59972.jpg" /></div>
+									<span class="floor_main_goods_title">clarks正装男鞋 Kalden Edge</span>
+									<p class="floor_main_goods_price">￥899.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55b86d70N53ef105b.jpg" /></div>
+									<span class="floor_main_goods_title">satchi沙驰男鞋 商务正装鞋</span>
+									<p class="floor_main_goods_price">￥799.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee85c4Nd7c03cde.jpg" /></div>
+									<span class="floor_main_goods_title">Cele策乐秋季新品一脚蹬休闲皮鞋</span>
+									<p class="floor_main_goods_price">￥699.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55dc3531N662761a8.jpg" /></div>
+									<span class="floor_main_goods_title">大洋洲袋鼠 男鞋休闲鞋</span>
+									<p class="floor_main_goods_price">￥499.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eeaf3cN680d70d3.jpg" /></div>
+									<span class="floor_main_goods_title">奥卡索百搭舒适休闲鞋运动女鞋</span>
+									<p class="floor_main_goods_price">￥269.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55cc35bdN56eec269.jpg" /></div>
+									<span class="floor_main_goods_title">Belle/百丽秋季黑色光牛皮女皮鞋</span>
+									<p class="floor_main_goods_price">￥378.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eeae18Nc40c6759.jpg" /></div>
+									<span class="floor_main_goods_title">Charles&Keith秋季新款斜拉链尖头细高跟短筒靴</span>
+									<p class="floor_main_goods_price">￥459.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eeb444N7a7822b2.jpg" /></div>
+									<span class="floor_main_goods_title">奥康女鞋真皮粗跟单鞋</span>
+									<p class="floor_main_goods_price">￥289.00</p>
+								</div>
+							</li>
+							<li><img src="img/floor/55ef03b4Nd22d90ea.jpg" /></li>
+							<li><img src="img/floor/55ef88efNf0f346bb.jpg" /></li>
+							<li><img src="img/floor/55ef03e2N4d68b336.jpg" /></li>
+							<li><img src="img/floor/55efc9fcN29723a4a.jpg" /></li>
+						</ul>
+						<ul class="floor_main">
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee71a1N9de670bb.jpg" /></div>
+									<span class="floor_main_goods_title">大卫山棉羊毛长袖衬衫</span>
+									<p class="floor_main_goods_price">￥258.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee7512N61f878d2.png" /></div>
+									<span class="floor_main_goods_title">GXG 男士时尚修身潮流百搭纯色长袖衬衫</span>
+									<p class="floor_main_goods_price">￥269.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee7c86N04a3885e.jpg" /></div>
+									<span class="floor_main_goods_title">FIRS杉杉男士长袖衬衫 硬领欧版提花长衬衣</span>
+									<p class="floor_main_goods_price">￥159.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ecedd9N6aa725d4.jpg" /></div>
+									<span class="floor_main_goods_title">亚狮龙男士休闲裤 男 修身直筒休闲长裤</span>
+									<p class="floor_main_goods_price">￥168.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eff8e6Nfd8316ff.jpg" /></div>
+									<span class="floor_main_goods_title">YOHO!有货 潮几何设计拼接连帽卫衣</span>
+									<p class="floor_main_goods_price">￥439.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55daec11N69ec0c62.jpg" /></div>
+									<span class="floor_main_goods_title">海澜之家男装时尚提花商务衬衫</span>
+									<p class="floor_main_goods_price">￥158.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ef8f3bN1bb62048.jpg" /></div>
+									<span class="floor_main_goods_title">美特斯邦威男装梭织洗水紧身休闲长裤</span>
+									<p class="floor_main_goods_price">￥168.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee71a1N9de670bb.jpg" /></div>
+									<span class="floor_main_goods_title">七匹狼夹克外套 立领男士时尚休闲外套夹克</span>
+									<p class="floor_main_goods_price">￥559.00</p>
+								</div>
+							</li>
+							<li><img src="img/floor/55ee9aeaNe6dcadec.jpg" /></li>
+							<li><img src="img/floor/55f0008fN0b7916e4.jpg" /></li>
+							<li><img src="img/floor/55ef02fcN7ec39949.jpg" /></li>
+							<li><img src="img/floor/55ef0313Nb48f52e3.jpg" /></li>
+						</ul>
+						<!----->
+						<ul class="floor_main">
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55e3f986Ncfb59972.jpg" /></div>
+									<span class="floor_main_goods_title">clarks正装男鞋 Kalden Edge</span>
+									<p class="floor_main_goods_price">￥899.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55b86d70N53ef105b.jpg" /></div>
+									<span class="floor_main_goods_title">satchi沙驰男鞋 商务正装鞋</span>
+									<p class="floor_main_goods_price">￥799.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee85c4Nd7c03cde.jpg" /></div>
+									<span class="floor_main_goods_title">Cele策乐秋季新品一脚蹬休闲皮鞋</span>
+									<p class="floor_main_goods_price">￥699.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55dc3531N662761a8.jpg" /></div>
+									<span class="floor_main_goods_title">大洋洲袋鼠 男鞋休闲鞋</span>
+									<p class="floor_main_goods_price">￥499.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eeaf3cN680d70d3.jpg" /></div>
+									<span class="floor_main_goods_title">奥卡索百搭舒适休闲鞋运动女鞋</span>
+									<p class="floor_main_goods_price">￥269.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55cc35bdN56eec269.jpg" /></div>
+									<span class="floor_main_goods_title">Belle/百丽秋季黑色光牛皮女皮鞋</span>
+									<p class="floor_main_goods_price">￥378.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eeae18Nc40c6759.jpg" /></div>
+									<span class="floor_main_goods_title">Charles&Keith秋季新款斜拉链尖头细高跟短筒靴</span>
+									<p class="floor_main_goods_price">￥459.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eeb444N7a7822b2.jpg" /></div>
+									<span class="floor_main_goods_title">奥康女鞋真皮粗跟单鞋</span>
+									<p class="floor_main_goods_price">￥289.00</p>
+								</div>
+							</li>
+							<li><img src="img/floor/55ef03b4Nd22d90ea.jpg" /></li>
+							<li><img src="img/floor/55ef88efNf0f346bb.jpg" /></li>
+							<li><img src="img/floor/55ef03e2N4d68b336.jpg" /></li>
+							<li><img src="img/floor/55efc9fcN29723a4a.jpg" /></li>
+						</ul>
+						<ul class="floor_main">
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee71a1N9de670bb.jpg" /></div>
+									<span class="floor_main_goods_title">大卫山棉羊毛长袖衬衫</span>
+									<p class="floor_main_goods_price">￥258.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee7512N61f878d2.png" /></div>
+									<span class="floor_main_goods_title">GXG 男士时尚修身潮流百搭纯色长袖衬衫</span>
+									<p class="floor_main_goods_price">￥269.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee7c86N04a3885e.jpg" /></div>
+									<span class="floor_main_goods_title">FIRS杉杉男士长袖衬衫 硬领欧版提花长衬衣</span>
+									<p class="floor_main_goods_price">￥159.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ecedd9N6aa725d4.jpg" /></div>
+									<span class="floor_main_goods_title">亚狮龙男士休闲裤 男 修身直筒休闲长裤</span>
+									<p class="floor_main_goods_price">￥168.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eff8e6Nfd8316ff.jpg" /></div>
+									<span class="floor_main_goods_title">YOHO!有货 潮几何设计拼接连帽卫衣</span>
+									<p class="floor_main_goods_price">￥439.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55daec11N69ec0c62.jpg" /></div>
+									<span class="floor_main_goods_title">海澜之家男装时尚提花商务衬衫</span>
+									<p class="floor_main_goods_price">￥158.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ef8f3bN1bb62048.jpg" /></div>
+									<span class="floor_main_goods_title">美特斯邦威男装梭织洗水紧身休闲长裤</span>
+									<p class="floor_main_goods_price">￥168.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee71a1N9de670bb.jpg" /></div>
+									<span class="floor_main_goods_title">七匹狼夹克外套 立领男士时尚休闲外套夹克</span>
+									<p class="floor_main_goods_price">￥559.00</p>
+								</div>
+							</li>
+							<li><img src="img/floor/55ee9aeaNe6dcadec.jpg" /></li>
+							<li><img src="img/floor/55f0008fN0b7916e4.jpg" /></li>
+							<li><img src="img/floor/55ef02fcN7ec39949.jpg" /></li>
+							<li><img src="img/floor/55ef0313Nb48f52e3.jpg" /></li>
+						</ul>
+						<!----->
+						<ul class="floor_main">
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55e3f986Ncfb59972.jpg" /></div>
+									<span class="floor_main_goods_title">clarks正装男鞋 Kalden Edge</span>
+									<p class="floor_main_goods_price">￥899.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55b86d70N53ef105b.jpg" /></div>
+									<span class="floor_main_goods_title">satchi沙驰男鞋 商务正装鞋</span>
+									<p class="floor_main_goods_price">￥799.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55ee85c4Nd7c03cde.jpg" /></div>
+									<span class="floor_main_goods_title">Cele策乐秋季新品一脚蹬休闲皮鞋</span>
+									<p class="floor_main_goods_price">￥699.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55dc3531N662761a8.jpg" /></div>
+									<span class="floor_main_goods_title">大洋洲袋鼠 男鞋休闲鞋</span>
+									<p class="floor_main_goods_price">￥499.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eeaf3cN680d70d3.jpg" /></div>
+									<span class="floor_main_goods_title">奥卡索百搭舒适休闲鞋运动女鞋</span>
+									<p class="floor_main_goods_price">￥269.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55cc35bdN56eec269.jpg" /></div>
+									<span class="floor_main_goods_title">Belle/百丽秋季黑色光牛皮女皮鞋</span>
+									<p class="floor_main_goods_price">￥378.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eeae18Nc40c6759.jpg" /></div>
+									<span class="floor_main_goods_title">Charles&Keith秋季新款斜拉链尖头细高跟短筒靴</span>
+									<p class="floor_main_goods_price">￥459.00</p>
+								</div>
+							</li>
+							<li>
+								<div class="floor_main_goods_wrap">
+									<div class="floor_main_goods_pic"><img src="img/floor/55eeb444N7a7822b2.jpg" /></div>
+									<span class="floor_main_goods_title">奥康女鞋真皮粗跟单鞋</span>
+									<p class="floor_main_goods_price">￥289.00</p>
+								</div>
+							</li>
+							<li><img src="img/floor/55ef03b4Nd22d90ea.jpg" /></li>
+							<li><img src="img/floor/55ef88efNf0f346bb.jpg" /></li>
+							<li><img src="img/floor/55ef03e2N4d68b336.jpg" /></li>
+							<li><img src="img/floor/55efc9fcN29723a4a.jpg" /></li>
+						</ul>
+
+					</div>
+
+
+
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<!--6.页面底部-->
+	<!--购物指南、配送方式等! -->
+ <footer id="foot" class="clear">
+	 <img src="img/loading.gif" alt="">
+ </footer>
+	<script src="js/jquery-1.10.0.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/headerfooter.js"></script>
+</body>
+</html>

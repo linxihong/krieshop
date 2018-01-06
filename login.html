@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img/logo.png"/></a>
+        <span>欢迎登录</span>
+    </header>
+    <div id="content">
+        <div id="login">
+            <div id="loginw">
+                <div class="lgtop"><span>登录KIKE商城</span> <a href="register.html">新用户注册</a></div>
+                <div class="lgcen">
+                    <input type="text" placeholder="请输入用户名" name="uname" id="uname"/>
+                    <p class="utext"></p>
+                </div>
+                <div class="lgcen">
+                    <input type="password" placeholder="请输入密码" name="upwd" id="upwd"/>
+                    <p class="ptext"></p>
+                </div>
+                <div class="lgbot">
+                    <input type="checkbox" id="auto"/><label for="auto">自动登录</label>
+                    <span><a href="#">忘记密码?</a></span>
+                </div>
+                <input type="button" value="登录" class="login"/>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/login.js"></script>
+</html>

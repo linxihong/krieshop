@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+<header>
+    <a href="01-index.html"><img src="img/logo.png"/></a>
+    <span>欢迎注册</span>
+</header>
+<div id="content">
+    <div id="reg">
+        <span style="color: white;font-size: 19px">新用户注册</span>
+        <a href="login.html" style="color: white;font-size: 13px;margin-left: 250px;text-decoration: none">直接登录</a>
+        <div class="regcls">
+            <label for="uname">用户名:</label>
+            <input type="text" name="uname" id="uname" required placeholder="请输入用户名" autofocus/>
+            <span id="uTitle"></span>
+        </div>
+        <div class="regcls">
+            <label for="upwd">登录密码:</label>
+            <input type="password" name="upwd" id="upwd"  required placeholder="请输入密码"/>
+            <span  id="pTitle"></span>
+        </div>
+
+        <div class="regcls">
+            <label for="repwd">确认密码:</label>
+            <input type="password" id="repwd" maxlength="12" required placeholder="确认密码"/>
+            <span id="reTitle"></span>
+        </div>
+
+        <div class="regcls">
+            <label for="email">邮箱:</label>
+            <input type="email" name="email" id="email" required placeholder="请输入邮箱地址"/>
+            <span id="eTitle"></span>
+        </div>
+
+        <div class="regcls">
+            <label for="phone">手机号:</label>
+            <input type="text" name="phone" id="phone" maxlength="11" required placeholder="请输入您的手机号"/>
+            <span id="ph"></span>
+        </div>
+
+        <div class="regcls">
+            <input type="button" value="提交注册信息" id="btn_reg"/>
+        </div>
+</div>
+</div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/reguster.js"></script>
+</body>
+</html>

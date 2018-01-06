@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>产品查询</h3>
+<select id="selectType">
+    <option value="0">请选择产品类型</option>
+</select>
+<select id="selectProuducer">
+    <option value="0">请选择生产厂家</option>
+</select>
+<select id="selectModel">
+    <option value="0">请选择产品型号</option>
+</select>
+<script src="js/jquery-1.11.3.js"></script>
+<script>
+    /*
+    * 当页面加载完成后，异步请求所有产品类型
+    * */
+    $(function(){
+        $.get('02_type_select.php',function(){
+            console.log('开始处理产品类型数据');
+            console.log(arguments);
+
+        });
+
+    })
+</script>
+</body>
+</html>

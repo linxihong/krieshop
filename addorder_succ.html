@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .succ{
+            margin-left: 358px;
+            margin-top: 81px;
+            border: 2px dashed #ccc;
+            width: 500px;
+            padding: 37px 64px;
+        }
+    </style>
+</head>
+
+<body>
+<div id="header"></div>
+<div class="succ">
+  <h3 style="font-size: 28px;">完成订单</h3>
+ <p style="    padding: 25px 0px;
+    font-size: 19px;">订单编号： <span id="oid"></span></p>
+   <p style="font-size: 19px;
+}"><img src="img/yes.png" alt="" style="vertical-align: middle;">感谢您提交订单，我们将及时为你处理！</p>
+ <p style=" font-size: 19px;padding: 27px 0;">亲爱的顾客，你可以点击 <a href="usercenter.html" style="font-weight: bold;
+    color: red;">此处</a>可以查看订单详情</p>
+    <p>请你购物愉快！</p>
+</div>
+<div id="foot"></div>
+</body>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/headerfooter.js"></script>
+<script>
+    oid.innerHTML = sessionStorage['OrderId'];
+    rcvName.innerHTML = sessionStorage['rcvName'];
+    addr.innerHTML =  sessionStorage['addr'];
+    price.innerHTML = sessionStorage['price'];
+
+
+
+</script>
+</html>
